@@ -1,0 +1,1 @@
+worker: python matn_ovoz_bot.py
