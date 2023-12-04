@@ -1,17 +1,16 @@
-import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.types.reply_keyboard import ReplyKeyboardMarkup,ReplyKeyboardRemove
 from gtts import gTTS
 import os
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-
+import logging
 
 
 # Bot tokenini bu o'zgaruvchiga kiritasiz
 logging.basicConfig(level=logging.INFO)
 
-bot_token = "6667152170:AAH0g_p9qShucnh-TDeDaAFI3dnl1ONgJzM"
+bot_token = ""
 bot = Bot(token=bot_token)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
